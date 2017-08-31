@@ -109,7 +109,7 @@ input[type="submit"],
   top: 8px;
 }
 .abm-login-form .abm-hide-show span {
-  background:  #3a8623;
+ background: rgba(255, 255, 255, 0.14);
   border-radius: 3px;
   display: block;
   padding: 0.3em  0.5em;
@@ -230,7 +230,7 @@ input:focus ~ .abm-highlight {
 }
 .abm-checkbox-group .abm-checkbox:after {
   content: '';
-  background:  #3b8e21;
+  background:   rgb(207, 142, 136);
   position: absolute;
   left: 0;
   top: 0;
@@ -260,17 +260,17 @@ input:focus ~ .abm-highlight {
   display: none;
 }
 .abm-login-button {
-     background: #46a728;
-    border: 1px solid #3b8e21;
+      background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     color: white;
     font-size: 1.2em;
     padding: 0.5em;
     width: 100%;
     position: relative;
-    box-shadow: 0px 1px 1px #327b1b;
+    box-shadow: 0px 1px 1px rgb(147, 90, 131);
 }
 .abm-login-button:hover {
-  background: #76ac39;
+  background: green;
   border: 1px solid #76ac39;
 }
 .abm-login-button.abm-show .abm-loader {
