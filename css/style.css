@@ -28,7 +28,7 @@ input[type="submit"],
   display: inline-block;
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -121,7 +121,7 @@ input[type="submit"],
 .abm-login-form .abm-hide-show span:hover,
 .abm-login-form .abm-hide-show span:focus,
 .abm-login-form .abm-hide-show span:active {
-  background: #76ac39;
+  background: orange;
 }
 .abm-login-form input:-webkit-autofill,
 .abm-login-form input:-webkit-autofill:hover,
@@ -230,7 +230,7 @@ input:focus ~ .abm-highlight {
 }
 .abm-checkbox-group .abm-checkbox:after {
   content: '';
-  background:   rgb(207, 142, 136);
+  background:  rgb(236, 127, 0);
   position: absolute;
   left: 0;
   top: 0;
@@ -260,18 +260,18 @@ input:focus ~ .abm-highlight {
   display: none;
 }
 .abm-login-button {
-      background: rgba(255, 255, 255, 0);
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     color: white;
     font-size: 1.2em;
     padding: 0.5em;
     width: 100%;
     position: relative;
-    box-shadow: 0px 1px 1px rgb(52, 67, 90);
+    box-shadow: 0px 1px 1px rgba(193, 108, 9, 0.71);
 }
 .abm-login-button:hover {
-  background: green;
-  border: 1px solid #76ac39;
+  background: orange;
+  border: 1px solid orange;
 }
 .abm-login-button.abm-show .abm-loader {
   display: block;
